@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -34,7 +35,7 @@ public class Main {
                 System.out.println("Ученик может поступить в университет");
             }
             if (age >= 24) {
-                System.out.println("Поздравляем с окончанием университета, можете искать первую работу");
+                System.out.println("Можете искать себе работу");
             }
 
     }
@@ -62,5 +63,22 @@ public class Main {
         else {
             System.out.println("Возраст совершеннолетия ещё не наступил, необходимо еще немного подождать");}
 
+    }
+    public static void task5() {
+        System.out.println("Домашнее задание 2 Часть 2");
+        int age = 50;
+
+        if (age < 7) {
+            System.out.println("Ребенок может пока отдыхать");
+        }
+        else if (age >= 7 && age < 18) {
+            System.out.println("Ребенку пора в школу");
+        }
+        else if (age >= 18 && age < 24) {
+            System.out.println("Ученик может поступить в университет");
+        }
+        else{
+            System.out.println("Можете искать себе работу");
+        }
     }
 }
