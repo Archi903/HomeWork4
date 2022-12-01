@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -51,5 +52,15 @@ public class Main {
         if (place > 101) {
             System.out.println("В автобусе нет мест");
         }
+    }
+    public static void task4() {
+        System.out.println("Домашнее задание 2 Часть 1");
+        int age = 15;
+
+        if (age >= 18){
+            System.out.println("Поздравляем с совершеннолетием");}
+        else {
+            System.out.println("Возраст совершеннолетия ещё не наступил, необходимо еще немного подождать");}
+
     }
 }
