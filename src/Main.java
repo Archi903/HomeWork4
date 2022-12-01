@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -25,20 +26,21 @@ public class Main {
 
         int age = 20;
 
-            if (age < 7) {
-                System.out.println("Ребенок может пока отдыхать");
-            }
-            if (age >= 7 && age < 18) {
-                System.out.println("Ребенку пора в школу");
-            }
-            if (age >= 18 && age < 24) {
-                System.out.println("Ученик может поступить в университет");
-            }
-            if (age >= 24) {
-                System.out.println("Можете искать себе работу");
-            }
+        if (age < 7) {
+            System.out.println("Ребенок может пока отдыхать");
+        }
+        if (age >= 7 && age < 18) {
+            System.out.println("Ребенку пора в школу");
+        }
+        if (age >= 18 && age < 24) {
+            System.out.println("Ученик может поступить в университет");
+        }
+        if (age >= 24) {
+            System.out.println("Можете искать себе работу");
+        }
 
     }
+
     public static void task3() {
         System.out.println("Задание3");
 
@@ -54,31 +56,45 @@ public class Main {
             System.out.println("В автобусе нет мест");
         }
     }
+
     public static void task4() {
         System.out.println("Домашнее задание 2 Часть 1");
         int age = 15;
 
-        if (age >= 18){
-            System.out.println("Поздравляем с совершеннолетием");}
-        else {
-            System.out.println("Возраст совершеннолетия ещё не наступил, необходимо еще немного подождать");}
+        if (age >= 18) {
+            System.out.println("Поздравляем с совершеннолетием");
+        } else {
+            System.out.println("Возраст совершеннолетия ещё не наступил, необходимо еще немного подождать");
+        }
 
     }
+
     public static void task5() {
         System.out.println("Домашнее задание 2 Часть 2");
         int age = 50;
 
         if (age < 7) {
             System.out.println("Ребенок может пока отдыхать");
-        }
-        else if (age >= 7 && age < 18) {
+        } else if (age >= 7 && age < 18) {
             System.out.println("Ребенку пора в школу");
-        }
-        else if (age >= 18 && age < 24) {
+        } else if (age >= 18 && age < 24) {
             System.out.println("Ученик может поступить в университет");
-        }
-        else{
+        } else {
             System.out.println("Можете искать себе работу");
+        }
+    }
+
+    public static void task6() {
+        System.out.println("Домашнее задание 2 Часть 3");
+
+        int place = 60;
+
+        if (place < 60) {
+            System.out.println("В автобусе есть сидячие места");
+        } else if (place <= 101 && place >= 60) {
+            System.out.println("В автобусе есть стоячие места");
+        } else {
+            System.out.println("В автобусе нет мест");
         }
     }
 }
