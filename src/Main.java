@@ -8,6 +8,7 @@ public class Main {
         task6();
         task7();
         task8();
+        task9();
     }
 
     public static void task1() {
@@ -131,4 +132,16 @@ public class Main {
             System.out.println("Можно кататься без сопровождения взрослого");
         }
     }
+    public static void task9() {
+        System.out.println("Домашнее задание 3 Часть 3");
+
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        boolean highNumber = three > two || two > one;
+if (highNumber) {
+    System.out.println(three + " самая высокая цифра");
 }
+        }
+
+    }
