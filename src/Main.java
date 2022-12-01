@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
     public static void task1() {
@@ -35,5 +36,20 @@ public class Main {
                 System.out.println("Поздравляем с окончанием университета, можете искать первую работу");
             }
 
+    }
+    public static void task3() {
+        System.out.println("Задание3");
+
+        int place = 102;
+
+        if (place < 60) {
+            System.out.println("В автобусе есть сидячие места");
+        }
+        if (place <= 101 && place >= 60) {
+            System.out.println("В автобусе есть стоячие места");
+        }
+        if (place > 101) {
+            System.out.println("В автобусе нет мест");
+        }
     }
 }
