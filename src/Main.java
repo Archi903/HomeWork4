@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -95,6 +96,25 @@ public class Main {
             System.out.println("В автобусе есть стоячие места");
         } else {
             System.out.println("В автобусе нет мест");
+        }
+    }
+
+    public static void task7() {
+        System.out.println("Домашнее задание 3 Часть 1");
+
+        int age = 50;
+
+        if (age >= 2 && age <= 6) {
+            System.out.println("Если возраст человека равен " + age + " то ему нужно ходить в детский сад");
+        }
+        else if (age >= 7 && age <= 18) {
+            System.out.println("Если возраст человека равен " + age + " то ему нужно ходить в школу");
+        }
+        else if (age > 18 && age < 24) {
+            System.out.println("Если возраст человека равен " + age + " то ему нужно ходить в университет");
+        }
+        else {
+            System.out.println("Если возраст человека равен " + age + " то ему нужно ходить на работу");
         }
     }
 }
